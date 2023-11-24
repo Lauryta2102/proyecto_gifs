@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: left;
+    margin: 30px;
+}
+
+.buscador{
+    width: 40vw;
+    font-size: 2em;
+}
+.look{
+    font-weight: 500;
+    background-color: fuchsia;
+    border: black;
+    padding: 5 px;
+}
+
+.result{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:5px;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.result > *{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.look:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
